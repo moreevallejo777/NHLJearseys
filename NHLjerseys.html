@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jerseys NHL - Tu Tienda de Hockey</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #00264d;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 6px;
+        }
+        .product-card h3 {
+            margin: 15px 0 10px;
+        }
+        .product-card p {
+            color: #555;
+            font-size: 0.9rem;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jerseys NHL - Tu Tienda de Hockey</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+    <section id="inicio" class="intro">
+        <h2>Bienvenido a Jerseys NHL</h2>
+        <p>La mejor tienda online para los fanáticos del hockey sobre hielo. Jerseys oficiales de la NHL con envío a todo el país.</p>
+    </section>
+	<section id="productos">
+    <h2>Nuestros Jerseys</h2>
+    <div class="products">
+        <div class="product-card">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fprinterval.com%2Fca%2Ftoronto-maple-leaf-hockey-team-jersey-customized-toronto-maple-leaf-hockey-jersey-ice-hockey-lovers-p14801702%3Fsrsltid%3DAfmBOopYvIltD2aKreDiPEP1fDSPKEywX8j9HFLvDZVADqZ0O8RD2qD0&psig=AOvVaw1yQBA9qP5xMiI9l9KxAaDb&ust=1761158399108000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjy47j4tZADFQAAAAAdAAAAABAL" alt="Jersey Toronto Maple Leafs" />
+            <h3>Toronto Maple Leafs</h3>
+            <p>Jersey oficial con la mejor calidad y diseño auténtico.</p>
+        </div>
+        <div class="product-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Chicago_Blackhawks_logo.svg/1200px-Chicago_Blackhawks_logo.svg.png" alt="Jersey Chicago Blackhawks" />
+            <h3>Chicago Blackhawks</h3>
+            <p>Demuestra tu pasión con este jersey clásico.</p>
+        </div>
+        <div class="product-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Edmonton_Oilers.svg/1200px-Edmonton_Oilers.svg.png" alt="Jersey Edmonton Oilers" />
+            <h3>Edmonton Oilers</h3>
+            <p>Jersey auténtico para verdaderos fans del hockey.</p>
+        </div>
+
+        <!-- Jerseys nuevos agregados -->
+        <div class="product-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/San_Jose_Sharks_logo.svg/1200px-San_Jose_Sharks_logo.svg.png" alt="Jersey San Jose Sharks" />
+            <h3>San Jose Sharks</h3>
+            <p>Apoya a los tiburones con este jersey oficial y moderno.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/73/New_Jersey_Devils_logo.svg/1200px-New_Jersey_Devils_logo.svg.png" alt="Jersey New Jersey Devils" />
+            <h3>New Jersey Devils</h3>
+            <p>Jersey auténtico para los fanáticos de los Devils.</p>
+        </div>
+    </div>
+</section>
